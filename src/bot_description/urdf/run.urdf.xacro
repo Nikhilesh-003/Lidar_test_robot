@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro"  name="robot">
+
+
+    <xacro:include filename="ogmen_bot.urdf.xacro" />
+    <xacro:include filename="gazebo_control.xacro" />
+    <xacro:include filename="lidar.urdf.xacro" />
+    <xacro:include filename="depthcamera.urdf.xacro" />
+
+    
+</robot>
